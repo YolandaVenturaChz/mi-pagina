@@ -91,7 +91,7 @@ nav li {
 .container-text {
   padding: 10rem 0;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.4);
 }
 img {
   width: 138%;
@@ -103,6 +103,7 @@ img {
 .container {
   margin: 0 auto;
   width: 100%;
+  background-color: rgb(112, 168, 245);
   
 }
 /* Elementos de abajo para que no afecte el float anterior*/
@@ -314,13 +315,27 @@ img {
     }
 
 }
-
+h2 {
+  font-size: 2rem;
+  color: #f453f4;
+  font-weight: 600;
+}
 
 
 .text-section h2 {
-  font-size: 3.5rem;
-  font-weight: 300;
+  font-size: 3rem;
+  font-weight: 600;
   line-height: 1.2;
+  color: #f453f4;
+}
+.text-section p{
+  font-size: x-large;
+
+}
+.text-infomation h1 {
+  font-size: 2rem;
+  color: #f453f4;
+  font-weight: 600;
 }
   button {
     border: none;
